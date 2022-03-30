@@ -73,6 +73,10 @@ API set that allows developers to add, remove, and modify environment variables 
 **New features**
 - Provides automatic removal of any environment variables changes when an app that used environment manager is uninstalled.
 
+### Other limitations and known issues
+
+- C# developers using 1.1.0 Preview 1 must use one of the following .NET SDK versions at a minimum: .NET SDK 6.0.201, 6.0.103, 5.0.212 or 5.0.406. To upgrade your .NET SDK, you can update to the latest version of Visual Studio, or visit [Download .NET](https://dotnet.microsoft.com/en-us/download).
+
 ## Version 1.0 Preview 3 (1.0.0-preview3)
 
 Preview 3 is the latest release of the preview channel for version 1.0 of the Windows App SDK. Preview 3 supports all [preview channel features](release-channels.md#features-available-by-release-channel).
